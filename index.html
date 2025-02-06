@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Alumni System</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="storage\image\SLSU.jpeg">
+    <link rel="icon" type="image/x-icon" href="storage\image\SLSU.jpeg">
+    <link rel="stylesheet" href="assets/css/adminlte.min.css"> <!-- Optional CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-options {
+            max-width: 400px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .login-options h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login-options button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .admin-login {
+            background-color: #007bff;
+            color: white;
+        }
+        .admin-login:hover {
+            background-color: #0056b3;
+        }
+        .alumni-login {
+            background-color: #28a745;
+            color: white;
+        }
+        .alumni-login:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-options">
+        <h1>Welcome to MSIT Alumni System</h1>
+        <p>Please select your login type:</p>
+        <button class="admin-login" onclick="window.location.href='login.php'">
+            <i class="fas fa-user-shield"></i> Login as Admin
+        </button>
+        <button class="alumni-login" onclick="window.location.href='loginalumni.php'">
+            <i class="fas fa-user-graduate"></i> Login as Alumni
+        </button>
+    </div>
+</body>
+</html>
