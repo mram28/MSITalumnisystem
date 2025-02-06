@@ -1,5 +1,5 @@
 # MSITalumnisystem
-AdminLTE CSS
-PHP
-JS
-SQL
+# AdminLTE CSS
+# PHP
+# JS
+# SQL
